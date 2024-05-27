@@ -38,7 +38,7 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v4
         with:
-          context: ./python-helloworld/
+          context: .
           path: ./python-helloworld/
           file: ./python-helloworld/Dockerfile
           platforms: linux/amd64
